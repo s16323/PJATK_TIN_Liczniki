@@ -1,0 +1,39 @@
+body
+{
+    background-color: white;
+    font-family: Calibri, sans-serif;
+}
+
+table
+{
+    border: 1px solid black;
+}
+
+table, tbody,  th
+{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+
+}
+
+table, tr:nth-child(odd)
+{
+    background-color: rgba(211, 234, 255, 0.50);
+}
+
+table, td
+{
+    text-align: right;
+
+}
+
+table, td:nth-child(1)
+{
+    text-align: left;
+}
+table, td:nth-child(2)
+{
+    text-align: left;
+}
